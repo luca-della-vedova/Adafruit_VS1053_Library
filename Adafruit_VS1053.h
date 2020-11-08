@@ -34,9 +34,6 @@ typedef volatile uint8_t RwReg;
 typedef uint8_t PortMask;
 #elif defined(__arm__)
 #if defined(TEENSYDUINO)
-typedef volatile uint8_t RwReg;
-typedef uint8_t PortMask;
-#else
 typedef volatile uint32_t RwReg;
 typedef uint32_t PortMask;
 #endif
